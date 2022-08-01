@@ -88,7 +88,8 @@ a{
     text-align: center;
     color: white;
     font-size: 18px;
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 735px;
 }
 #input{
     width: 100%;
@@ -477,6 +478,7 @@ input {
     font-weight: 400;
     color: #999;
     text-align: center;
+    width: 212px;
 }
 #offer{
     width: 100%;
@@ -612,7 +614,7 @@ input {
     text-align: center;
     margin: 25px 0;
     line-height: 1.7;
-
+    width: 250px;
     
 }
 #testimonial .bottom .sub-title{
@@ -690,11 +692,6 @@ input {
     padding: 100px 170px;
     border-radius: 3px;
 }
-#blog .bottom .title{
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 0;
-}
 
 #blog .bottom .row .box .submit a:nth-child(1){
     background: #1089ff;
@@ -704,7 +701,7 @@ input {
     font-size: 15px;
     border-radius: 3px;
     transition: .1s all;
-
+    
 }
 #blog .bottom ul{
     margin: 10px 0;
@@ -716,6 +713,12 @@ input {
     color: #1089ff;
     font-size: 16px;
     font-weight: 500;
+}
+#blog .bottom .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    width: 360px;
 }
 #about{
     width: 100%;
@@ -811,10 +814,143 @@ input {
     letter-spacing: 12px;
 }
 
-@media (min-width:768px) and (max-width:991px){
+
+/* Responsive */
+
+
+@media (max-width:1200px){
+
+
     #nav-ber .content{
-        width:745px;
-        padding: 4px 0;
+        width:100%;
+        box-sizing: border-box;
+        padding: 5px 10px;
+    }
+    
+    #hero .content{
+        width: 100%;
+        padding: 230px 0 !important;
+        
+    }
+    #input .content{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+    }
+    #input .left{
+        padding: 25px;
+    }
+    #input .right{
+        padding: 40px;
+    }
+    #vehicles .content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    #vehicles .bottom .row .box .photo{
+        padding: 90px 155px !important;
+    }
+    #vehicles .bottom .submit a{
+        padding:  6px 35px !important;
+    }
+    #greet .content{
+        width: 100%;
+        padding: 65px 20px;
+        box-sizing: border-box;
+
+    }
+    #greet img{
+        width: 480px;
+    }
+    #greet .title{
+        margin: 10px 0;
+        font-size: 38px;
+    }
+    #greet .right{
+        width: 420px;
+    }
+    #services .content{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+    }
+    #services .bottom .details{
+        font-size: 14px;
+        width: 200px;
+    }
+    #offer .content{
+        width: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
+
+    }
+    #offer .title{
+        font-size: 30px;
+    }
+    #testimonial .content{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+    #testimonial .bottom .child-box{
+        padding: 20px;
+    }
+    #testimonial .bottom .details{
+        font-size: 14px;
+    }
+    #blog .content{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+    }
+    #blog .bottom .row .box .photo{
+        padding: 90px 150px !important;
+    }
+    #blog .bottom .title{
+        font-size: 19px;
+        width: 300px;
+    }
+    #blog .bottom .row .box .submit a{
+        padding: 6px 20px !important ;
+    }
+    #about .content{
+        width: 970px;
+        padding: 70px 0;
+    }
+    #footer .content{
+        width: 100%;
+        padding: 70px 20px;
+        box-sizing: border-box;
+
+    }
+    #footer .heading{
+        font-size: 17px;
+    }
+    #footer .column:nth-child(1) .details{
+        font-size: 14px;
+
+    }
+    #footer .column .details{
+        font-size: 14px;
+    }
+    #footer .column .icon{
+        font-size: 16px;
+    }
+    #footer .bottom{
+        font-size: 25px;
+    }
+}  
+
+
+@media (max-width:992px){
+    #nav-ber .content{
+        width:100%;
+        padding: 4px 20px;
     }
     #nav-ber .wheel{
         width: 35px;
@@ -829,7 +965,7 @@ input {
         font-size: 15px;
     }
     #hero .content{
-        width: 745px;
+        width: 100%;
         padding: 190px 0 !important;
     }
     #hero .title{
@@ -837,9 +973,11 @@ input {
     }
     #hero .sub-title{
         font-size: 17px;
+        width: 600px;
+        margin: 5px auto;
     }
     #input .content{
-        width: 745px;
+        width: 100%;
         top: -65px;
     }
     #input .left{
@@ -895,7 +1033,7 @@ input {
         margin-top: 15px;
     }
     #vehicles .content{
-        width: 745px;
+        width: 100%;
     }
     #vehicles .top .sub-title {
         font-size: 14px;
@@ -913,8 +1051,8 @@ input {
         padding:  6px 45px !important;
     }
     #greet .content{
-        width: 745px;
-        padding: 40px 0;
+        width: 100%;
+        padding: 40px 20px;
     }
     #greet img{
         width: 330px;
@@ -930,7 +1068,7 @@ input {
         width: 380px;
     }
     #services .content{
-        width: 745px;
+        width: 100%;
     }
     #services .top .sub-title {
         font-size: 14px;
@@ -949,10 +1087,11 @@ input {
     }
     #services .bottom .details{
         font-size: 12px;
+        width: 125px ;
     }
     #offer .content{
-        width: 745px;
-        padding: 30px 0;
+        width: 100%;
+        padding: 30px 20px;
     }
     #offer .content::before {
         width: 350px;
@@ -965,7 +1104,7 @@ input {
         padding: 7px 15px;
     }
     #testimonial .content{
-        width: 745px;
+        width: 100%;
     }
     #testimonial .top .sub-title {
         font-size: 14px;
@@ -984,6 +1123,7 @@ input {
     #testimonial .bottom .details{
         font-size: 12px;
         margin: 10px 0;
+        width: 170px;
     }
     #testimonial .bottom .sub-title{
         font-size: 17px;
@@ -995,17 +1135,18 @@ input {
         width: 90px;
     }
     #blog .content{
-        width: 745px;
-        padding: 10px 0 !important;
+        width: 100%;
+        padding: 10px 20px !important;
     }
     #blog .top .sub-title {
         font-size: 14px;
     }
     #blog .top .title{
         font-size: 35px;
+        
     }
     #blog .bottom .row .box .photo{
-        padding: 60px 100px !important;
+        padding: 60px 120px !important;
     }
     #blog .bottom ul li{
         font-size: 13.5px;
@@ -1014,14 +1155,17 @@ input {
     #blog .bottom .title{
         font-size: 15.3px;
         margin: 10px 0;
+        width: 220px;
     }
     #blog .bottom .row .box .submit a{
         padding: 6px 20px !important ;
         font-size: 12px;
     }
     #about .content{
-        width: 745px;
-        padding: 40px 0;
+        width: 100%;
+        padding: 40px 20px;
+        box-sizing: border-box;
+
     }
     #about .content::before {
         width: 15px;
@@ -1033,8 +1177,8 @@ input {
         font-size: 14px;
     }
     #footer .content{
-        width: 745px;
-        padding: 70px 0;
+        width: 100%;
+        padding: 70px 20px;
     }
     #footer .heading{
         font-size: 14px;
@@ -1055,98 +1199,274 @@ input {
 }  
 
 
-@media (min-width:992px) and (max-width:1023px){
+@media (max-width:768px){
+    
     #nav-ber .content{
-        width:950px;
-        padding: 5px 0;
+        width:100%;
+        padding: 4px 20px;
+    }
+    #nav-ber .wheel{
+        width: 28px;
+    }
+    #nav-ber .logo{
+        font-size: 14px;
     }
     #nav-ber .right{
-        gap: 35px;
+        gap: 8px;
+    }
+    #nav-ber .right p{
+        font-size: 13px;
     }
     #hero .content{
-        width: 950px;
-        padding: 200px 0 !important;
+        width: 100%;
+        padding: 190px 0 !important;
+    }
+    #hero .title{
+        font-size: 30px;
+    }
+    #hero .sub-title{
+        font-size: 13px;
+        width: 500px;
+        margin: 5px auto;
     }
     #input .content{
-        width: 950px;
+        width: 100%;
+        top: -35px;
+        flex-direction: column;
     }
     #input .left{
-        padding: 25px;
+        padding: 0 30px 30px 30px;
+    }
+    #input .left .title{
+        font-size: 25px;
+        margin: 14px 0;
+    }
+    #input .left .label{
+        font-size: 14px ;
+    }
+    #input .left input{
+        width: 250px;
+        font-size: 13px;
+        padding: 8px !important;
+        margin: 10px 0;
+    }
+    #input .left .date input{
+        width: 110px;
+        font-size: 11px;
+        padding:  8px !important;
+        margin: 10px 0;
+    }
+    #input .left .button{
+        font-size: 16px;
+        padding: 10px 0;
     }
     #input .right{
-        padding: 40px;
+        padding: 20px ;
+        border-radius: 5px;
+    }
+    #input .right .box{
+        margin: 10px;
+    }
+    #input .right .title{
+        font-size: 21px;
+        margin: 15px 0 !important;
+    }
+    #input .right .logo{
+        width: 75px;
+        height: 75px;
+        font-size: 35px;
+    }
+    #input .right .sub-title{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    #input .right .button{
+        font-size: 14px;
+        padding: 10px;
+        margin-top: 15px;
     }
     #vehicles .content{
-        width: 950px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+    }
+    #vehicles .top .sub-title {
+        font-size: 14px;
+    }
+    #vehicles .top .title{
+        font-size: 35px;
+    }
+    #vehicles .bottom .row{
+        flex-wrap: wrap;
     }
     #vehicles .bottom .row .box .photo{
-        padding: 90px 150px !important;
+        padding: 80px 140px !important;
     }
     #vehicles .bottom .submit a{
-        padding:  6px 35px !important;
+        padding:  5px 35px !important;
     }
     #greet .content{
-        width: 950px;
-        padding: 65px 0;
+        width: 100%;
+        padding: 40px 0;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+    }
+    #greet::before {
+        height: 53%;
+        transform: skew(-40deg);
+        width: 65%;
+        left: -286px;
     }
     #greet img{
-        width: 480px;
+        width: 500px;
     }
     #greet .title{
-        margin: 10px 0;
-        font-size: 38px;
+        margin: 5px 0;
+        font-size: 30px;
+    }
+    #greet .details{
+        font-size: 15px;
     }
     #greet .right{
-        width: 420px;
+        width: 380px;
+        text-align: center;
     }
     #services .content{
-        width: 950px;
+        width: 100%;
+    }
+    #services .top .sub-title {
+        font-size: 14px;
+    }
+    #services .top .title{
+        font-size: 35px;
+    }
+    #services .bottom .box{
+        flex-wrap: wrap;
+    }
+    #services .bottom .logo{
+        width: 90px;
+        height: 90px;
+        font-size: 35px;
+    }
+    #services .bottom .sub-title{
+        font-size: 17px;
+        margin: 8px;
     }
     #services .bottom .details{
         font-size: 14px;
+        width: 250px ;
     }
     #offer .content{
-        width: 950px;
-        padding: 50px;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #offer .content::before {
+        width: 300px;
     }
     #offer .title{
-        font-size: 30px;
+        font-size: 18px;
+    }
+    #offer .button{
+        font-size: 14px;
+        padding: 3px 12px;
     }
     #testimonial .content{
-        width: 950px;
-
+        width: 100%;
     }
-    #testimonial .bottom .child-box{
-        padding: 20px;
-    }
-    #testimonial .bottom .details{
+    #testimonial .top .sub-title {
         font-size: 14px;
     }
+    #testimonial .top .title{
+        font-size: 35px;
+    }
+    #testimonial .bottom .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #testimonial .bottom .child-box{
+        padding: 50px;
+    }
+    #testimonial .logo{
+        width: 110px !important;
+        height: 110px !important;
+
+    }
+    #testimonial .bottom .details{
+        font-size: 17px;
+        margin: 10px 0;
+        width: 250px;
+    }
+    #testimonial .bottom .sub-title{
+        font-size: 25px;
+    }
+    #testimonial .bottom .title{
+        font-size: 16px;
+    }
+    #testimonial .bottom .border{
+        width: 90px;
+    }
     #blog .content{
-        width: 950px;
+        width: 100%;
+        padding: 10px 0 !important;
+    }
+    #blog .top .sub-title {
+        font-size: 14px;
+    }
+    #blog .top .title{
+        font-size: 35px;
+        
+    }
+    #blog .bottom .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
     #blog .bottom .row .box .photo{
-        padding: 90px 150px !important;
+        padding: 100px 180px !important;
+    }
+    #blog .bottom ul li{
+        font-size: 16px;
+        margin: 3px 0;
     }
     #blog .bottom .title{
-        font-size: 19px;
+        font-size: 17px;
+        margin: 10px 0;
+        width: 350px;
     }
     #blog .bottom .row .box .submit a{
         padding: 6px 20px !important ;
+        font-size: 12px;
     }
     #about .content{
-        width: 950px;
-        padding: 70px 0;
+        width: 100%;
+        padding: 40px 20px;
+        flex-wrap: wrap;
     }
     #about .content::before {
-        width: 20px;
+        width: 25px;
+    }
+    #about .box{
+        margin: 25px 15px;
+    }
+    #about .title{
+        font-size:50px ;
+    }
+    #about .sub-title{
+        font-size: 20px;
     }
     #footer .content{
-        width: 950px;
-        padding: 70px 0;
+        width: 100%;
+        padding: 70px 20px;
+    }
+    #footer .content .top{
+        flex-wrap: wrap;
     }
     #footer .heading{
-        font-size: 17px;
+        font-size: 23px;
     }
     #footer .column:nth-child(1) .details{
         font-size: 14px;
@@ -1156,99 +1476,291 @@ input {
         font-size: 14px;
     }
     #footer .column .icon{
-        font-size: 16px;
+        font-size: 15px;
     }
     #footer .bottom{
         font-size: 25px;
     }
 }  
 
-@media (min-width:1024px) and (max-width:1200px){
+
+@media (max-width:576px){
     #nav-ber .content{
-        width:980px;
-        padding: 5px 0;
+        width:100%;
+        padding: 4px 0;
+        flex-direction: column;
+    }
+    #nav-ber .wheel{
+        width: 30px;
+    }
+    #nav-ber .logo{
+        font-size: 16px;
+    }
+    #nav-ber .right{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #nav-ber .right p{
+        font-size: 12px;
     }
     #hero .content{
-        width: 980px;
-        padding: 230px 0 !important;
+        width: 100%;
+        padding: 190px 0 !important;
+    }
+    #hero .title{
+        font-size: 30px;
+    }
+    #hero .sub-title{
+        font-size: 13px;
+        width: 300px;
+        margin: 5px auto;
     }
     #input .content{
-        width: 980px;
+        width: 100%;
+        top: -35px;
+        flex-direction: column;
     }
     #input .left{
-        padding: 25px;
+        padding: 0 30px 30px 30px;
+    }
+    #input .left .title{
+        font-size: 25px;
+        margin: 14px 0;
+    }
+    #input .left .label{
+        font-size: 14px ;
+    }
+    #input .left input{
+        width: 250px;
+        font-size: 13px;
+        padding: 8px !important;
+        margin: 10px 0;
+    }
+    #input .left .date input{
+        width: 110px;
+        font-size: 11px;
+        padding:  8px !important;
+        margin: 10px 0;
+    }
+    #input .left .button{
+        font-size: 16px;
+        padding: 10px 0;
     }
     #input .right{
-        padding: 40px;
+        padding: 20px ;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #input .right .box{
+        margin: 10px;
+        flex-direction: column;
+    }
+    #input .right .title{
+        font-size: 24px;
+        margin: 15px 0 !important;
+        text-align: center;
+    }
+    #input .right .logo{
+        width: 90px;
+        height: 90px;
+        font-size: 40px;
+    }
+    #input .right .sub-title{
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    #input .right .button{
+        font-size: 14px;
+        padding: 10px;
     }
     #vehicles .content{
-        width: 980px;
+        width: 100%;
+    }
+    #vehicles .top .sub-title {
+        font-size: 14px;
+    }
+    #vehicles .top .title{
+        font-size: 35px;
+    }
+    #vehicles .bottom .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     #vehicles .bottom .row .box .photo{
-        padding: 90px 150px !important;
+        padding: 80px 140px !important;
     }
     #vehicles .bottom .submit a{
-        padding:  6px 35px !important;
+        padding:  5px 35px !important;
     }
     #greet .content{
-        width: 980px;
-        padding: 65px 0;
+        width: 100%;
+        padding: 40px 20px;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+    }
+    #greet::before {
+        height: 53%;
+        transform: skew(-40deg);
+        width: 65%;
+        left: -286px;
     }
     #greet img{
-        width: 480px;
+        width: 90%;
     }
     #greet .title{
-        margin: 10px 0;
-        font-size: 38px;
+        margin: 5px 0;
+        font-size: 30px;
+    }
+    #greet .details{
+        font-size: 15px;
     }
     #greet .right{
-        width: 420px;
+        width: 100%;
+        text-align: center;
     }
     #services .content{
-        width: 980px;
+        width: 100%;
+    }
+    #services .top .sub-title {
+        font-size: 14px;
+    }
+    #services .top .title{
+        font-size: 35px;
+    }
+    #services .bottom .box{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #services .bottom .logo{
+        width: 90px;
+        height: 90px;
+        font-size: 35px;
+    }
+    #services .bottom .sub-title{
+        font-size: 17px;
+        margin: 8px;
     }
     #services .bottom .details{
         font-size: 14px;
+        width: 250px ;
     }
     #offer .content{
-        width: 980px;
-        padding: 50px;
+        width: 100%;
+        padding: 30px 0;
+    }
+    #offer .content::before {
+        width: 200px;
     }
     #offer .title{
-        font-size: 30px;
+        font-size: 18px;
+    }
+    #offer .button{
+        font-size: 14px;
+        padding: 3px 12px;
     }
     #testimonial .content{
-        width: 980px;
-
+        width: 100%;
     }
-    #testimonial .bottom .child-box{
-        padding: 20px;
-    }
-    #testimonial .bottom .details{
+    #testimonial .top .sub-title {
         font-size: 14px;
     }
+    #testimonial .top .title{
+        font-size: 35px;
+    }
+    #testimonial .bottom .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #testimonial .bottom .child-box{
+        padding: 50px;
+    }
+    #testimonial .logo{
+        width: 110px !important;
+        height: 110px !important;
+
+    }
+    #testimonial .bottom .details{
+        font-size: 17px;
+        margin: 10px 0;
+        width: 250px;
+    }
+    #testimonial .bottom .sub-title{
+        font-size: 25px;
+    }
+    #testimonial .bottom .title{
+        font-size: 16px;
+    }
+    #testimonial .bottom .border{
+        width: 90px;
+    }
     #blog .content{
-        width: 980px;
+        width: 100%;
+        padding: 10px 0 !important;
+    }
+    #blog .top .sub-title {
+        font-size: 14px;
+    }
+    #blog .top .title{
+        font-size: 35px;
+        
+    }
+    #blog .bottom .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
     #blog .bottom .row .box .photo{
-        padding: 90px 150px !important;
+        padding: 100px 130px !important;
+    }
+    #blog .bottom ul li{
+        font-size: 16px;
+        margin: 3px 0;
     }
     #blog .bottom .title{
-        font-size: 19px;
+        font-size: 17px;
+        margin: 10px 0;
+        width: 310px;
     }
     #blog .bottom .row .box .submit a{
         padding: 6px 20px !important ;
+        font-size: 12px;
     }
     #about .content{
-        width: 970px;
-        padding: 70px 0;
+        width: 100%;
+        padding: 40px 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #about .content::before {
+        width: 25px;
+    }
+    #about .box{
+        margin: 25px 15px;
+    }
+    #about .title{
+        font-size:50px ;
+    }
+    #about .sub-title{
+        font-size: 20px;
     }
     #footer .content{
-        width: 980px;
+        width: 100%;
         padding: 70px 0;
     }
+    #footer .content .top{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 15px;
+    }
     #footer .heading{
-        font-size: 17px;
+        font-size: 23px;
     }
     #footer .column:nth-child(1) .details{
         font-size: 14px;
@@ -1258,9 +1770,10 @@ input {
         font-size: 14px;
     }
     #footer .column .icon{
-        font-size: 16px;
+        font-size: 15px;
     }
     #footer .bottom{
         font-size: 25px;
+        text-align: center;
     }
-}  
+} 

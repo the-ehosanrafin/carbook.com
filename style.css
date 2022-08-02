@@ -857,6 +857,9 @@ input {
         width: 100%;
         padding: 0 20px;
     }
+    #vehicles .row{
+        justify-content: space-around;
+    }
     #vehicles .bottom .row .box .photo{
         padding: 90px 155px !important;
     }
@@ -902,8 +905,10 @@ input {
         width: 100%;
         padding: 0 20px;
         box-sizing: border-box;
+    }
 
-
+    #testimonial .box{
+        justify-content: space-around !important;
     }
     #testimonial .bottom .child-box{
         padding: 20px;
@@ -916,6 +921,9 @@ input {
         padding: 0 20px;
         box-sizing: border-box;
 
+    }
+    #blog .row{
+        justify-content: space-around !important;
     }
     #blog .bottom .row .box .photo{
         padding: 90px 150px !important;
@@ -936,6 +944,9 @@ input {
         padding: 70px 20px;
         box-sizing: border-box;
 
+    }
+    #footer .top{
+        justify-content: space-around !important;
     }
     #footer .heading{
         font-size: 17px;
@@ -1022,6 +1033,7 @@ input {
     }
     #input .right .box{
         margin-bottom: 10px;
+        justify-content: space-around;
     }
     #input .right .title{
         font-size: 21px;
@@ -1043,6 +1055,8 @@ input {
     }
     #vehicles .content{
         width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
     #vehicles .top .sub-title {
         font-size: 14px;
@@ -1052,6 +1066,7 @@ input {
     }
     #vehicles .bottom .row{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     #vehicles .bottom .row .box .photo{
         padding: 100px 170px !important;
@@ -1084,6 +1099,9 @@ input {
     }
     #services .top .title{
         font-size: 35px;
+    }
+    #services .bottom .box{
+        justify-content: space-around;
     }
     #services .bottom .logo{
         width: 75px;
@@ -1129,6 +1147,9 @@ input {
         height: 90px !important;
 
     }
+    #testimonial .bottom .box{
+        justify-content: space-around;
+    }
     #testimonial .bottom .details{
         font-size: 12px;
         margin: 10px 0;
@@ -1154,6 +1175,9 @@ input {
         font-size: 35px;
         
     }
+    #blog .bottom .row{
+        justify-content: space-around;
+    }
     #blog .bottom .row .box .photo{
         padding: 60px 120px !important;
     }
@@ -1174,6 +1198,7 @@ input {
         width: 100%;
         padding: 40px 20px;
         box-sizing: border-box;
+        justify-content: space-around;
 
     }
     #about .content::before {
@@ -1188,6 +1213,9 @@ input {
     #footer .content{
         width: 100%;
         padding: 70px 20px;
+    }
+    #footer .top{
+        justify-content: space-around;
     }
     #footer .heading{
         font-size: 14px;
@@ -1272,9 +1300,13 @@ input {
     #input .right{
         padding: 20px ;
         border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #input .right .box{
         margin: 10px;
+        justify-content: space-around !important;
     }
     #input .right .title{
         font-size: 21px;
@@ -1308,6 +1340,7 @@ input {
     }
     #vehicles .bottom .row{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     #vehicles .bottom .row .box .photo{
         padding: 80px 140px !important;
@@ -1353,6 +1386,7 @@ input {
     }
     #services .bottom .box{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     #services .bottom .logo{
         width: 90px;
@@ -1454,6 +1488,7 @@ input {
         width: 100%;
         padding: 40px 20px;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     #about .content::before {
         width: 25px;
@@ -1473,6 +1508,8 @@ input {
     }
     #footer .content .top{
         flex-wrap: wrap;
+        gap: 80px;
+        justify-content: space-around;
     }
     #footer .heading{
         font-size: 23px;
@@ -1518,7 +1555,7 @@ input {
     #nav-ber .right p{
         font-size: 12.5px;
         font-weight: 500;
-        background: #01d28e;
+        color: #01d28e;
         border-radius: 3px;
         padding: 1px 2px;
     }
@@ -1783,6 +1820,8 @@ input {
     }
     #footer .heading{
         font-size: 23px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     #footer .column:nth-child(1) .details{
         font-size: 14px;
@@ -1790,6 +1829,7 @@ input {
     }
     #footer .column .details{
         font-size: 14px;
+        line-height: 1.6;
     }
     #footer .column .icon{
         font-size: 15px;
